@@ -2676,7 +2676,7 @@ img {
   }
 
   .wpo-site-header #navbar {
-    background: var(--coalClr);
+    background: var(--goldClr);
     display: block !important;
     width: 300px;
     height: 100%;
@@ -2896,6 +2896,8 @@ img {
 @media (max-width: 991px) {
   .wpo-site-header #navbar>ul>li>a {
     padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 }
 
@@ -6805,7 +6807,7 @@ img {
 .Arkitek-project-section-s2 .project-slider .owl-dot {
   width: 10px;
   height: 12px;
-  background: #779A65;
+  background: var(--creamClr);
   border-radius: 50%;
   margin: 0 5px;
   border: 0;
@@ -8892,7 +8894,7 @@ img {
 .Arkitek-team-section .owl-dot {
   width: 10px;
   height: 12px;
-  background: #779A65;
+  background: var(--creamClr);
   border-radius: 50%;
   margin: 0 5px;
   border: 0;
