@@ -363,7 +363,7 @@ img {
 
 .theme-btn,
 .view-cart-btn {
-  background: #fff;
+  background: var(--goldClr);
   display: inline-block;
   font-weight: 600;
   padding: 20px 45px;
@@ -374,7 +374,7 @@ img {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   text-align: center;
-  color: var(--goldClr);
+  color: white;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   z-index: 1;
@@ -388,7 +388,7 @@ img {
   top: -5px;
   width: 100%;
   height: 100%;
-  border: 1px solid #fff;
+  border: 1px solid var(--goldClr);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   z-index: -1;
@@ -2793,7 +2793,7 @@ img {
 }
 
 .wpo-site-header .navbar-header .navbar-brand img {
-  max-width: 170px;
+  max-width: 180px;
 }
 
 @media (max-width: 991px) {
@@ -2829,7 +2829,7 @@ img {
 
 @media (max-width: 440px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 170px;
+    max-width: 180px;
   }
 }
 
@@ -7356,9 +7356,9 @@ img {
 /*3.8 Arkitek-cta-section */
 .Arkitek-cta-section,
 .Arkitek-cta-section-s2 {
-  background: url(../images/cta-bg.jpg);
+  /* background: url(../images/cta-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   z-index: 1;
   position: relative;
 }
@@ -7371,7 +7371,7 @@ img {
   width: 100%;
   height: 100%;
   content: '';
-  background: var(--goldClr);
+  background: var(--coalClr);
   opacity: 0.95;
   z-index: -1;
 }
@@ -9679,7 +9679,7 @@ img {
 
 /* Arkitek-service-section-s3 */
 .Arkitek-service-section-s3 {
-  background: var(--tanClr);
+  background: var(--coalClr);
   padding-left: 100px;
   padding-right: 100px;
   position: relative;
@@ -9708,7 +9708,7 @@ img {
 }
 
 .Arkitek-service-section-s3 .shape-1 svg path {
-  fill: var(--goldClr);
+  fill: var(--tanClr);
 }
 
 .Arkitek-service-section-s3 .shape-2 {
@@ -9719,7 +9719,7 @@ img {
 }
 
 .Arkitek-service-section-s3 .shape-2 svg path {
-  fill: var(--goldClr);
+  fill: var(--tanClr);
 }
 
 .Arkitek-service-section-s3 .service-wrap {
@@ -9802,7 +9802,11 @@ img {
   font-size: 16px;
   line-height: 25px;
   text-transform: uppercase;
-  color: var(--goldClr);
+  color: white;
+  background-color: var(--goldClr);
+  &:before {
+    border-color: var(--goldClr);
+  }
 }
 
 .Arkitek-service-section-s3 .service-content {
@@ -9853,7 +9857,7 @@ img {
 
 .Arkitek-service-section-s3 .service-content .owl-dot.active {
   width: 40px;
-  background: var(--creamClr);
+  background: var(--goldClr);
   border-radius: 6px;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -9890,7 +9894,7 @@ img {
   width: 120px;
   height: 120px;
   border-radius: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--coalClr);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
