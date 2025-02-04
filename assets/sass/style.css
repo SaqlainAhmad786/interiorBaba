@@ -2875,7 +2875,7 @@ img {
 
 @media (max-width: 370px) {
   .wpo-site-header .navbar-header .navbar-brand img {
-    max-width: 140px;
+    max-width: 176px;
   }
 }
 
@@ -5605,7 +5605,7 @@ img {
 }
 
 .wpo-site-footer-s2 {
-  background: var(--goldClr);
+  background: var(--coalClr);
   position: relative;
   z-index: 1;
 }
