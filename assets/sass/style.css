@@ -5437,7 +5437,7 @@ img {
 
 .wpo-site-footer .link-widget ul li a,
 .wpo-site-footer-s2 .link-widget ul li a {
-  color: var(--goldClr)!important;
+  color: var(--goldClr) !important;
   font-size: 15px;
   line-height: 35px;
   letter-spacing: 2px;
@@ -5459,7 +5459,7 @@ img {
   padding-bottom: 15px;
   position: relative;
   padding-left: 35px;
-  color: var(--goldClr)!important;
+  color: var(--goldClr) !important;
   /* color: #e5e3e3; */
   font-size: 17px;
 }
@@ -9750,7 +9750,7 @@ img {
 }
 
 .Arkitek-service-section-s3 .shape-1 svg path {
-  fill: var(--tanClr);
+  fill: #18332B;
 }
 
 .Arkitek-service-section-s3 .shape-2 {
@@ -9761,7 +9761,7 @@ img {
 }
 
 .Arkitek-service-section-s3 .shape-2 svg path {
-  fill: var(--tanClr);
+  fill: #18332B;
 }
 
 .Arkitek-service-section-s3 .service-wrap {
@@ -9890,7 +9890,7 @@ img {
 .Arkitek-service-section-s3 .service-content .owl-dot {
   width: 10px;
   height: 10px;
-  background: var(--creamClr);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   margin: 0 5px;
   border: 0;
@@ -9916,8 +9916,8 @@ img {
   padding: 60px 55px;
   /* background: -webkit-gradient(linear, left top, left bottom, from(#1E2850), color-stop(52.6%, #1E2850), to(#0A1439)); */
   /* background: linear-gradient(180deg, #1E2850 0%, #1E2850 52.6%, #0A1439 100%); */
-  background-color: #18332b;
-  /* backdrop-filter: blur(8px); */
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
   border-radius: 8px;
 }
 
@@ -9960,6 +9960,7 @@ img {
 }
 
 .Arkitek-service-section-s3 .service-single-item .text h2 {
+  color: var(--goldClr) !important;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
@@ -9986,10 +9987,10 @@ img {
 }
 
 .Arkitek-service-section-s3 .service-single-item .text p {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  /* font-family: "Raleway", sans-serif; */
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.2;
   color: #E0E0E0;
 }
 
@@ -13522,7 +13523,7 @@ img {
   content: "\e64c";
   font-family: "themify";
   text-align: center;
-  color: var(--goldClr);
+  color: var(--tanClr);
   font-size: 14px;
 }
 
